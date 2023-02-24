@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/greeter/domain/domain.iml" filepath="$PROJECT_DIR$/greeter/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greet/greet.iml" filepath="$PROJECT_DIR$/greet/greet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greeter/greeter.iml" filepath="$PROJECT_DIR$/greeter/greeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microprofile-rest-client.iml" filepath="$PROJECT_DIR$/microprofile-rest-client.iml" />
+    </modules>
+  </component>
+</project>
