@@ -1,6 +1,10 @@
 org/wildfly/quickstarts/microprofile/RootResource.class
-org/wildfly/quickstarts/microprofile/CountryProviderResource.class
 org/wildfly/quickstarts/microprofile/Account.class
+org/wildfly/quickstarts/microprofile/CreateAccountController.class
+org/wildfly/quickstarts/microprofile/EJBAccountDao.class
+org/wildfly/quickstarts/microprofile/CountryProviderResource.class
+org/wildfly/quickstarts/microprofile/AccountDao.class
 org/wildfly/quickstarts/microprofile/Country.class
 org/wildfly/quickstarts/microprofile/JaxRsApplication.class
-org/wildfly/quickstarts/microprofile/AccountProviderResource.class
+org/wildfly/quickstarts/microprofile/GreetAccountController.class
+org/wildfly/quickstarts/microprofile/ManageBeanAccountDao.class

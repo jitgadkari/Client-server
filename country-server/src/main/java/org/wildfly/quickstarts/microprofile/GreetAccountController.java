@@ -2,7 +2,7 @@ package org.wildfly.quickstarts.microprofile;
 
 public class GreetAccountController {
 
-    @Inject
+//    @Inject
     private AccountDao accountDao;
 
     private String Accountusername;

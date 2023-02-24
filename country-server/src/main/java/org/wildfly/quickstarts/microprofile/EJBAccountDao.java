@@ -36,7 +36,7 @@ public class EJBAccountDao implements AccountDao {
 
     public EJBAccountDao() {
     }
-    public Account getForAccountUsername(String Accountusername) {
+    public Account getForAccountusername(String Accountusername) {
         try {
             Query query = entityManager.createQuery("select u from User u where u.name = ?");
             query.setParameter(1, Accountusername);
@@ -46,7 +46,7 @@ public class EJBAccountDao implements AccountDao {
         }
     }
 
-    public void createUser(Account account) {
+    public void createAccountUser(Account account) {
         entityManager.persist(account);
     }
 

@@ -2,8 +2,6 @@ package org.wildfly.quickstarts.microprofile;
 
 
 //import javax.persistence.*;
-//import javax.persistence.Entity;
-
 import javax.persistence.*;
 
 @Entity

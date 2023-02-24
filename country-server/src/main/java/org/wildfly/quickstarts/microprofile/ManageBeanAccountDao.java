@@ -20,7 +20,7 @@ package org.wildfly.quickstarts.microprofile;
  */
 //package org.jboss.as.quickstarts.greeter.domain;
 
-        import javax.inject.Inject;
+//        import javax.inject.Inject;
         import javax.persistence.EntityManager;
         import javax.persistence.NoResultException;
         import javax.persistence.Query;
@@ -29,10 +29,10 @@ package org.wildfly.quickstarts.microprofile;
 
 public class ManageBeanAccountDao implements AccountDao {
 
-    @Inject
+//    @Inject
     private EntityManager entityManager;
 
-    @Inject
+//    @Inject
     private UserTransaction utx;
 
     public Account getForAccountusername(String Accountusername) {
@@ -58,7 +58,7 @@ public class ManageBeanAccountDao implements AccountDao {
         }
     }
 
-    public void createUser(Account account) {
+    public void createAccountUser(Account account) {
         try {
             try {
                 utx.begin();
